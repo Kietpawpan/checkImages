@@ -1,0 +1,133 @@
+
+body,h1,h2,h3,h4,h5 {
+	font-family: "Raleway", sans-serif
+}
+
+body{
+	overflow-x: hidden;
+}
+
+textarea{
+  width:100%;
+  font-size:35px;
+
+}
+
+textarea:focus {
+  outline: none;
+}
+
+textarea::placeholder{
+	font-size:25px;
+}
+
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size:;
+  cursor: pointer;
+  border-radius:5px;
+  font-family:"Noto Sans Thai", sans-serif;
+}
+
+
+.btn:hover {
+  background-color: RoyalBlue;
+}
+
+
+
+.myapp{
+font-family:"Kanit";
+}
+
+.ref{
+        padding-left: 1.5em;
+        text-indent:-1.5em;
+}
+
+/*PASSWORD CHECK*/
+input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* Style the container for inputs */
+.container {
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+#Report {
+  display:none;
+  position: relative;
+  font-family:"Noto Sans Thai", sans-serif;
+  font-weight:bold;
+}
+
+/* The message box is shown when the user clicks on the password field 
+https://www.w3schools.com/howto/howto_js_password_validation.asp
+*/
+
+#message {
+  display:none;
+  background: #f1f1f1;
+  color: #000;
+  position: relative;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+#para {
+  display:none;
+  background: #f1f1f1;
+  color: #000;
+  position: relative;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+
+#message p {
+  padding: 10px 35px;
+  font-size: 18px;
+}
+
+.valid {
+  color: green;
+}
+
+.valid:before {
+  position: relative;
+  left: -35px;
+  content: "✔";
+}
+
+.invalid {
+  color: red;
+}
+
+.invalid:before {
+  position: relative;
+  left: -35px;
+  content: "✖";
+}
+
+#cursor {
+  font-size: 30px;
+}
+
+
