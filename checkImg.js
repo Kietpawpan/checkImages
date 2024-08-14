@@ -59,14 +59,14 @@ function classifyFn() {
      resultElement.innerText = `Label: ${highestConfidenceResult.label}\nConfidence: 
      ${(highestConfidenceResult.confidence * 100).toFixed(2)}%`;
  
-setTimeout(transt, 3000);
+setTimeout(transt, 2000);
 function transt() {
  resultElement.innerHTML = "Translating...<span id='cursor'>_</span>";
 }
 
 
 
-setTimeout(trans, 5000);
+setTimeout(trans, 4000);
 function trans() {
   window.location.href =turl;
 }
